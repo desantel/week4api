@@ -1,0 +1,18 @@
+body {
+    background-color: peru;
+}
+
+div#test{
+    border:blue 3px solid;
+    padding:10px 40px 40px 40px;
+    background-color: paleturquoise;
+    width:50%;}
+
+
+
+#startButton {
+    background-color: palevioletred;
+    height: 100px;
+    width: 150px;
+    margin: 40px;
+}

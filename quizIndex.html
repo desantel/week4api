@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="./quizStyle.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h2 id="quiz"></h2>
+    <div>
+        <div id="timer"> </div>
+        <button id="startButton">Start Button</button>
+    </div>
+    <div id="test"></div>
+    <script src="quizJs.js"></script>
+    <div class="savedScore" data-state="hidden">
+        <h2>HIGH SCORE</h2>
+        <input type="text" id="name" value="Your Name">
+        <input type="text" id="highScore" value="Your Score">
+        <p id="goodJob"></p>
+        <button id="submitButton">Submit Score</button>
+    </div>
+</body>
+
+</html>
